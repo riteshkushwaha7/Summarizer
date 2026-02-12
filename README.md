@@ -65,30 +65,9 @@ This will open a **Streamlit web app** in your default browser where you can upl
 ## 🛠 Technologies Used
 - **Python**
 - **Streamlit**
-- **PyPDF2**
 - **Google Gemini AI API**
 - **python-dotenv**
+- **pdfplumber**
 
----
-## ⚡ Troubleshooting
-**Issue:** API Key not found error.
-- Ensure the `.env` file is properly set up with the correct API key.
-- Run `echo $GOOGLE_API_KEY` (Linux/macOS) or `echo %GOOGLE_API_KEY%` (Windows) to check if the environment variable is loaded.
 
-**Issue:** Streamlit not launching.
-- Ensure you have activated the virtual environment before running Streamlit.
-- Try reinstalling dependencies using `pip install -r requirements.txt`.
-
----
-## 🏆 Contributing
-Feel free to contribute! Fork the repository, make changes, and submit a pull request.
-
----
-## 📜 License
-This project is licensed under the **MIT License**.
-
----
-## 📩 Contact
-For any questions or issues, feel free to reach out via [GitHub Issues](https://github.com/your-username/pdf-summarizer/issues).
-or mail to nidhishbalasubramanya@gmail.com
 
